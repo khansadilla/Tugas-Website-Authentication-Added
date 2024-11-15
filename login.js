@@ -31,7 +31,7 @@ submit.addEventListener("click", function (event) {
       // Signed up
       const user = userCredential.user;
       alert("You Have Logged In");
-      window.location.href="index.html";
+      window.location.href="home.html";
     })
     .catch((error) => {
       const errorCode = error.code;
